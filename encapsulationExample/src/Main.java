@@ -12,5 +12,7 @@ public class Main {
         dataScan.setHeight();
         System.out.print("User's place of birth is: " );
         dataScan.setCountry();
+        System.out.print(dataScan.getName() +" "+dataScan.getSurname() + " "
+        + dataScan.getAge()+", "+dataScan.getHeight()+", "+dataScan.getCountry());
     }
 }

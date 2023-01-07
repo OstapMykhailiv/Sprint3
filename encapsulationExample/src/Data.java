@@ -39,12 +39,14 @@ public class Data {
     }
 
     private String country;
+
     public String getCountry(){
         return country;
     }
+
     public void setCountry(){
         Scanner input = new Scanner(System.in);
-        String country = input.nextLine();
+        this.country = input.nextLine();
     }
 
 }
